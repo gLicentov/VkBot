@@ -1,0 +1,19 @@
+@VkBot_HostAddress = http://localhost:5136
+
+GET {{VkBot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{VkBot_HostAddress}}/api/values
+
+###
+
+GET {{VkBot_HostAddress}}/api/values
+
+###
+
+@id=0
+DELETE {{VkBot_HostAddress}}/api/values/{{id}}
+
+###
