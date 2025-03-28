@@ -17,3 +17,20 @@ GET {{VkBot_HostAddress}}/api/values
 DELETE {{VkBot_HostAddress}}/api/values/{{id}}
 
 ###
+
+POST {{VkBot_HostAddress}}/api/messageEndPoint/callback
+Content-Type: application/json
+
+{
+  //JsonElement
+}
+
+###
+POST {{VkBot_HostAddress}}/api/messageEndPoint/callback
+Content-Type: application/json
+
+{
+  //JsonElement
+}
+
+###

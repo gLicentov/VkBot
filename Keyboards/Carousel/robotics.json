@@ -1,0 +1,56 @@
+{
+  "message": "Курсы робототехники:",
+  "template": {
+    "type": "carousel",
+    "elements": [
+      {
+        "title": "Lego WeDo (6+)",
+        "description": "Основы конструирования",
+        "photo_id": "-123456_789012",
+        "action": {
+          "type": "open_photo"
+        },
+        "buttons": [
+          {
+            "action": {
+              "type": "text",
+              "label": "Подробнее",
+              "payload": "{\"command\":\"robotics_details\"}"
+            }
+          },
+          {
+            "action": {
+              "type": "text",
+              "label": "Назад",
+              "payload": "{\"command\":\"back\",\"to\":\"education_menu\"}"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lego Mindstorms (10+)",
+        "description": "Программирование роботов",
+        "photo_id": "-123456_789013",
+        "action": {
+          "type": "open_photo"
+        },
+        "buttons": [
+          {
+            "action": {
+              "type": "text",
+              "label": "Подробнее",
+              "payload": "{\"command\":\"robotics_details\"}"
+            }
+          },
+          {
+            "action": {
+              "type": "text",
+              "label": "Назад",
+              "payload": "{\"command\":\"back\",\"to\":\"education_menu\"}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

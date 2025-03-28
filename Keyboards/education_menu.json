@@ -1,0 +1,25 @@
+{
+  "message": "Выберите направление:",
+  "buttons": [
+    [
+      {
+        "text": "Робототехника",
+        "payload": { "command": "robotics" }
+      },
+      {
+        "text": "Скорочтение",
+        "payload": { "command": "speedreading" }
+      }
+    ],
+    [
+      {
+        "text": "Назад",
+        "payload": {
+          "command": "back",
+          "to": "main_menu"
+        }
+      }
+    ]
+  ],
+  "one_time": false
+}
